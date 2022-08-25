@@ -44,6 +44,7 @@ body{
 main{
   background: white;
 }
+
 /*cont1*/
 
 .cont1{
@@ -95,6 +96,7 @@ main{
   margin-top: 10px;
   padding: 5px;
   color: grey;
+  cursor: pointer;
 }
 
 /*our cont 2*/
@@ -120,22 +122,119 @@ main{
 
 .cont-details{
   width: 100%;
-  margin-top: 30px;
 }
 
 .item-details{
-  *background-color: red;
-  width: 400px;
-  margin: auto;
+  width: 100%;
 }
 
 .icon-details{
-  width: 100px;
-  height: 100px;
-  *border: 2px solid black;
-  *overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 20px;
+  overflow: hidden;
 }
 
 .icon-details img{
   width: 100%;
+  margin-top: 10px;
 }
+
+.item-details h4{
+  margin-top: 20px;
+}
+
+.item-details p{
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+/*our cont 3*/
+
+.cont3{
+  width: 100%;
+  text-align: center;
+}
+
+.cont3 h1{
+  margin-top: 30px;
+  font-weight: 100;
+}
+
+.cont3 hr{
+  width: 100px;
+  height: 4px;
+  margin: auto;
+  background: -webkit-linear-gradient(left, red, blue, white);
+  border-style: none;
+  margin-top: 10px;
+}
+
+.cont3 p{
+  margin-top: 20px;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+.cont-estadistcs{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.item-estadistcs{
+  width: 300px;
+  margin: auto;
+  padding: 5px;
+}
+
+.item1 {
+  background-color: pink;
+  border-radius: 10px 10px 0px 0px;
+}
+.item1 img {
+  width: 30px;
+  margin-top: 10px;
+}
+
+.item2 {
+  background-color: powderblue;
+}
+.item2 img {
+  width: 70px;
+  margin-top: 10px;
+}
+
+.item3 {
+  background-color: burlywood;
+}
+.item3 img {
+  width: 70px;
+  margin-top: 10px;
+}
+
+.item4 {
+  background-color: red;
+  border-radius: 0px 0px 10px 10px;
+}
+.item4 img {
+  width: 70px;
+  margin-top: 10px;
+}
+
+.item-estadistcs h4{
+  font-size: 20px;
+  color: grey;
+  margin-top: 10px;
+}
+
+.item-estadistcs p{
+  font-size: 20px;
+  color: grey;
+  margin-top: 1px;
+}
+
