@@ -281,7 +281,7 @@ main{
   color: grey;
 }
 
-.button-cont4{                                                                                                                                                                                                 
+.button-cont4{
   display: flex;
   margin: auto;
   margin-top: 10px;
@@ -292,6 +292,7 @@ main{
   border-radius: 10px;
   margin: auto;
   margin-top: 10px;
+  margin-right: 5px;
   padding: 5px;
   color: grey;
   background: lightblue;
@@ -318,22 +319,38 @@ main{
 }
 
 .footer-logo{
-  width: 100%;
-  margin: 10px;
+ width: 100%;
+ display: flex;
+  align-items: center;
 }
-
 .footer-logo img{
-  width: 200px;
+  width: 100px;
+  margin: auto;
 }
 
+.footer-social{
+  width: 100%;
+  align-items: center;
+}
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
 
+.social-face img, .social-inst img, .social-email img {
+  width: 20px;
+  height: 20px;
+}
 
-
-
-
-
-
-
+.footer-social p{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 12px;
+  color: grey;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
 
 
 /*Our media screen mobile and table*/
