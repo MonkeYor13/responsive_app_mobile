@@ -309,13 +309,20 @@ main{
 
 /*Our Footer*/
 
+footer{
+  max-width: 1040px;
+  background: white;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
 .footer-cont{
   width: 100%;
   height: 100px;
-  background: white;
   margin-top: 20px;
-  border-radius: 10px;
   display: flex;
+  align-items: center;
 }
 
 .footer-logo{
@@ -423,6 +430,21 @@ main{
     border-radius: 20px;
     margin: auto;
     margin-top: 30px;
+  }
+
+  .footer-logo img{
+    width: 180px;
+    margin: auto;
+  }
+  .icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  .social-face img, .social-inst img, .social-email img {
+    width: 30px;
+    height: 30px;
   }
 
 }
